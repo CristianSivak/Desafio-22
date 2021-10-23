@@ -22,7 +22,7 @@ app.get('/productos/vista-test', (req, res) => {
         id: ++id,
         name: faker.commerce.productName(),
         price: faker.datatype.number(),
-        thumbnail: faker.datatype.number()
+        thumbnail: faker.image.image()
       });
     }
   
